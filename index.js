@@ -114,13 +114,8 @@ window.onload = function() {
     hideAll();
     $id('goldDisplay').show();
     $id('work').show();
-    $id('buyBall').show();
-    $id('ballsDisplay').show();
-    $id('plasticDisplay').show();
-    $id('airDisplay').show();
 
     initGame(game);
-    game.balls = 175;
 
     $id('work').onclick = () => {
         game.gold++;
