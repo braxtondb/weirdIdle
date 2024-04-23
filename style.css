@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-size: 20pt;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+p {
+    margin: 0px;
+    text-shadow: 0.6px 1px 1px rgba(255, 255, 255, 0.4);
+    line-height: 1.1;
+}
+
+div {
+    white-space: normal;
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    background-image: linear-gradient(#969696, #9d9e9f);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    border-width: 0;
+    font-size: 18pt;
+    line-height: 18pt;
+    padding: 14px;
+    border-radius: 3px;
+    /* border: 2px solid rgb(28, 110, 164); */
+}
+
+*:disabled {
+    background-color: #404040;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.noclick {
+    pointer-events: none;
+}
+
+button:hover tool-tip {
+    display: block;
+}
+
+tool-tip {
+    pointer-events: none;
+    z-index: 999;
+    display: none;
+    position: absolute;
+    padding: 10px;
+    font-size: 12pt;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.83);
+}
+
+#chapter {
+    font-size: 132pt;
+    /* letter-spacing: .1rem; */
+    font-weight: 700;
+    font-family: "Ysabeau SC";
+    text-shadow: none;
+    color: white;
+}

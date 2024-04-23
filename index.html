@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="DOMInterface.js"></script>
+    <script src="index.js"></script>
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Ysabeau -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+      <p id="goldDisplay" class="centered" style="top: 35%"></p>
+      <p id="ballsDisplay" class="centered" style="top: 39%; font-size: 16pt"></p>
+      <p id="plasticDisplay" class="centered" style="top: 42%; font-size: 16pt"></p>
+      <p id="airDisplay" class="centered" style="top: 45%; font-size: 16pt"></p>
+      <p id="debtNote" class="centered" style="top: 35.1%; left: 60%; font-size: 12pt; color: red; text-shadow: none">1.2% interest</p>
+      <p id="warning" class="centered" style="top: 17%; font-size: 64pt; text-shadow: none; font-weight: bolder">Warning: Overpressurizing</p>
+      <button id="work" class="centered" style="top: 35.2%; left: 41%; background: #3fcc65; font-size: 14pt; width: 68px; height: 30px; padding: 0">Gain</button>
+      <button id="pop" class="centered" style="top: 39.2%; left: 41%; background: #faa2d7; font-size: 14pt; width: 68px; height: 30px; padding: 0">Pop</button>
+      <div class="centered-x" style="top: 70%; width: 185.5px; height: 100px; line-height: 28px">
+        <p id="taxNote" class="centered-x noclick" style="top: 37px; left: 50%; font-size: 8pt; text-shadow: none"><i>7% tax</i></p>
+        <button id="buyBall" style="background: #ffc39e">Buy beach ball</button>
+        <button id="overbudget" style="background: #69caff; font-size: 12pt; padding: 1px; width: 100%">Unlock: Overbudget<tool-tip>Gain the ability to purchase beach balls without<br>cooldown, but at an extra price.<br>Cost: 100 gold and 5 balls</tool-tip></button>
+      </div>
+      <p id="chapter" class="centered" style="top: 14%">—Death—</p>
+    </div>
+  </body>
+</html>
